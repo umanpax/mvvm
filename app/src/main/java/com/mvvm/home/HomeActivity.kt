@@ -49,7 +49,7 @@ class HomeActivity : AppCompatActivity() {
     }
 
     private fun initRecycler(listHobbies: ArrayList<String>) {
-        adapter = HobbiesAdapter(listHobbies, this, viewModel)
+        adapter = HobbiesAdapter(listHobbies, this)
         val llm = LinearLayoutManager(this)
         llm.orientation = RecyclerView.VERTICAL
         recyclerView.visibility = View.VISIBLE
