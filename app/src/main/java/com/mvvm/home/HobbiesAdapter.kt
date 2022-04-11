@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.mvvm.R
 
 class HobbiesAdapter(mLlistHobbies: ArrayList<String>,
-                     view: Context, viewModel: HomeViewModel
+                     view: Context
 ) :
     RecyclerView.Adapter<HobbiesAdapter.HobbiesView>() {
     private var listHobbies: ArrayList<String>? = mLlistHobbies
